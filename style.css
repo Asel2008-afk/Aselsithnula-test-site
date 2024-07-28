@@ -1,0 +1,287 @@
+body {
+    background-color: #0b0c0d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.navbar li {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    background-color: rgb(66, 65, 65);
+}
+ 
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+    border-radius: 15px;
+    margin-left: 950px;
+    margin-top: 120px;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    margin-top: -400px;
+    margin-left: 40px;
+    font-family: "Geologica", sans-serif;
+}
+
+h2 {
+    color: aqua;
+    margin-top: -80px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: "Geologica", sans-serif;
+}
+
+.text p {
+    color: white;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+.glow-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #000000;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.4), 0 0 40px rgba(30, 144, 255, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-left: 160px;
+    margin-top: 75px;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 245, 0.6), 0 0 50px rgba(30, 144, 255, 0.4);
+}
+
+hr {
+    border: 1px solid #ffffff;
+    margin: 60px 0;
+}
+
+.img2 {
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 75px;
+}
+
+.about-me {
+    max-width: 600px;
+    padding: 20px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 700px;
+    margin-top: -100px;
+}
+
+.about-me h1 {
+    font-size: 24px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: white;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.skill {
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.skill .percentage {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skill .name {
+    font-size: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Media Query for iPhone 12 Pro (1170 x 2532) */
+@media (max-width: 1170px) {
+    .img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: block;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .text p {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-family: "Spectral", serif;
+    }
+
+    .glow-button {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .img2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: block;
+        width: 90%;
+    }
+
+    .about-me {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skill {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.social-icon2 {
+    text-align: center; /* Aligns content to the left */
+    margin-left: -600px;
+    padding: 15px 30px;
+    margin-top: -48px;
+}
+
+.social-icon2 a {
+    margin-right: 20px; /* Adjust the gap between the social icons */
+    display: inline-block; /* Ensures the anchors are displayed inline */
+}
+
+.fa-brands.fa-github.fa-xl {
+    color: rgb(255, 255, 255);
+}
+
+.fa-brands.fa-facebook.fa-xl,
+.fa-brands.fa-linkedin.fa-xl {
+    color: white;
+}
